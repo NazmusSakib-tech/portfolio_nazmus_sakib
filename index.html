@@ -31,6 +31,9 @@
 
   <!-- CUSTOM STYLE -->
   <link href="stylesheets/style.css" id="switch_style" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -39,6 +42,10 @@
 ===========================================-->
   <header id="home">
     <nav id="theMenu" class="menu">
+      
+
+
+
       <!--MENU-->
       <div id="menu-options" class="menu-wrap">
         <!--PERSONAL LOGO-->
@@ -49,13 +56,14 @@
 
         <!--OPTIONS-->
         <a href="#home"><i class="title-icon fa fa-user"></i>Home</a>
-        <a href="#about"><i class="title-icon fa fa-dashboard"></i>About</a>
+        <a href="#about"><i class="title-icon fas fa-address-card"></i>About</a>
         <a href="#education"><i class="title-icon fa fa-graduation-cap"></i>Education</a>
         <a href="#skills"><i class="title-icon fa fa-sliders"></i>Skills</a>
         <a href="#experience"><i class="title-icon fa fa-suitcase"></i>Experience</a>
         <a href="#portfolios"><i class="title-icon fa fa-archive"></i>Portfolios</a>
 
         <a href="#contact"><i class="title-icon fa fa-envelope"></i>Contact</a>
+        <a href="#blog"><i class="title-icon fas fa-blog"></i>Blog</a>
       </div>
 
       <!-- MENU BUTTON -->
@@ -67,7 +75,7 @@
     </nav>
 
     <!--HEADER BACKGROUND-->
-    <div class="header-background section"></div>
+    <div class="header-background section" id="particles-js"></div>
   </header>
 
   <!--==========================================
@@ -156,7 +164,7 @@
             <div id="about-btn" class="card-action">
               <div class="about-btn">
                 <!-- DOWNLOAD CV BUTTON -->
-                <a href="https://doc-04-8g-docs.googleusercontent.com/docs/securesc/b56vqdu4ldrpf0grj3rfedclnnmrpnca/qs62g4tc4h1iv5gvcdr1k61lonq3vli8/1638196725000/14186084533618773325/14186084533618773325/1LPKpI7gqvwoNmHFwzrvAk3G9_gmwUqjN?e=download&authuser=2"
+                <a href="https://drive.google.com/uc?export=download&id=1LPKpI7gqvwoNmHFwzrvAk3G9_gmwUqjN"
                   class="btn waves-effect">Download CV</a>
                 <!-- CONTACT BUTTON -->
                 <a href="#contact" class="btn waves-effect">Contact Me</a>
@@ -432,7 +440,7 @@
         <div class="timeline-block">
           <!-- DOT -->
           <div class="timeline-dot new-timeline-dot">
-            <h6>D</h6>
+            <h6>E</h6>
           </div>
           <!-- TIMELINE CONTENT -->
           <div class="card timeline-content new-timeline-content">
@@ -606,6 +614,24 @@
       </div> -->
     </div>
   </section>
+
+
+  <!--==========================================
+                  Blog
+===========================================-->
+  <section id="blog" class="section" style="margin-top: 75px">
+    <div class="container">
+      <!-- SECTION TITLE -->
+      <div class="section-title">
+        <h4 class="text-uppercase text-center">
+          <img src="images/icons/safe.png" alt="demo" />Blog
+        </h4>
+      </div>
+
+     <div class="text-center text-darken-4"><h3>Coming Soon.....</h3></div>
+  </section>
+
+
   <!--==========================================
                   CONTACT
 ===========================================-->
@@ -692,6 +718,9 @@
   <script src="javascript/vendors/materialize.min.js"></script>
   <script src="javascript/vendors/scrollreveal.min.js"></script>
   <script src="javascript/main.js"></script>
+  <script src="javascript/vendors/particles.js"></script>
+  <script src="javascript/vendors/app.js"></script>
+  
 </body>
 
 </html>
